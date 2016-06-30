@@ -20,19 +20,33 @@
 }
 
 .cd-purple {
-	background: #8e44ad !important;
+	background: #790779 !important;
 }
 
 .cd-black {
 	background: #000 !important;
 }
+	.cd-section.cd-black h2 {
+		color: #ffc000;
+	}
 
 .cd-white {
 	background-color: #fff !important;
 }
+	.cd-section.cd-white h1, .cd-section.cd-white p, .cd-section.cd-white ul li {
+		color: #2c3e50;
+	}
 
 .cd-gray {
 	background: #95a5a6 !important;
+}
+
+.cd-brown {
+	background: #795548 !important;
+}
+
+.cd-pink {
+	background: #cc3065 !important;
 }
 
 /*intro dot design*/
