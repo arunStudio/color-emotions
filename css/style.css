@@ -93,7 +93,7 @@ Main components
   text-transform: uppercase;
   font-size: 64px;
   font-size: 4rem;
-  text-shadow: 6px 6px 1px rgba(0,0,0,.2);
+  text-shadow: 6px 6px 0px rgba(0,0,0,.2);
   margin-bottom: 25px;
 }
 
@@ -162,6 +162,7 @@ Main components
   height: 110px;
   top: 20% !important;
   left: 49.5% !important;
+  position: fixed;
 }
 
 .cd-section ul li {
@@ -228,7 +229,7 @@ Main components
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
-    position: absolute;
+    position: fixed;
     font-size: 30px;
     font-size: 1.5rem;
     font-weight: 400;
